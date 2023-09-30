@@ -43,4 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetchFeaturedJoke();
 
+    const jokeGeneratorBtn = document.getElementById('joke-generator-btn');
+    const jokeGeneratorText = document.getElementById('joke-generator-text');
+    const jokeAudio = document.getElementById('joke-audio');
+
 })
