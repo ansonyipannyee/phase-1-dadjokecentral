@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const keywordInput = document.getElementById('keyword-input');
-    const generateJokeBtn = document.getElementById('generate-joke-btn');
+    const jokeSearchBtn = document.getElementById('joke-search-btn');
     const jokeResult = document.getElementById('joke-result');
 
-    generateJokeBtn.addEventListener('click', () => {
+    jokeSearchBtn.addEventListener('click', () => {
         const keyword = keywordInput.value;
         if (keyword.trim() === '') {
             return;
@@ -43,6 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetchFeaturedJoke();
 
-    const likedJokesList = document.getElementById('liked-jokes-list');
-    let likedJokes = [];
 })
