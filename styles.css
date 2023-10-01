@@ -45,4 +45,15 @@ section {
     font-style: italic;
 }
 
+#joke-generator-btn {
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+#keyword-input, #joke-search-btn {
+    border: 1px solid #dc933d;
+    background-color: #ffdead;
+    border-radius: 10px;
+}
 

@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     jokeGeneratorBtn.addEventListener('click', () => {
         const jokeAudio = new Audio ("https://www.soundjay.com/human/sounds/fart-03.mp3");
         jokeAudio.play();
+        jokeGeneratorBtn.textContent = '😮‍💨';
 
         fetch(`https://icanhazdadjoke.com/`, {
             headers: {
