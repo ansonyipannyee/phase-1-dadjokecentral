@@ -27,7 +27,8 @@ I've incorporated the use of other design platforms in order to construct a logo
 If you'd like to make a contribution or adaptation to this project, feel free to clone this repository into your local machine.
 
 ```
-git clone https://ansonyipannyee.github.io/phase-1-dadjokecentral/ ```
+git clone https://ansonyipannyee.github.io/phase-1-dadjokecentral/
+```
 
 
 ## Credits
