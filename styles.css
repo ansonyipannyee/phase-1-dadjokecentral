@@ -1,59 +1,60 @@
 html {
-    height: 100%;
-    width: 100%;
-    font-family: 'inconsolata';
+  height: 100%;
+  width: 100%;
+  font-family: "inconsolata";
 }
 
 #main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-size: 18px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 section {
-    background-color: #f6ee8a; 
-    border: 10px dotted #dc933d; 
-    border-radius: 30px; 
-    padding: 20px; 
-    margin: 10px;
-    max-width: 700px; 
-    text-align: center; 
-    overflow: hidden;
+  background-color: #f6ee8a;
+  border: 10px dotted #dc933d;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 900px;
+  text-align: center;
+  overflow: hidden;
 }
-
 
 #logo {
-    max-width: 100%;
-    width: 300px;
-    height: auto;
-    margin-bottom: 20px;
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
-#joke-search, #featured-joke, #joke-generator {
-    flex: 1;
+#joke-search,
+#featured-joke,
+#joke-generator {
+  flex: 1;
 }
 
 #joke-hunt-text {
-    padding: 0;
-    margin: 0;
-    font-size: smaller;
-    font-weight: lighter;
-    font-style: italic;
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 #joke-generator-btn {
-    border: none;
-    background: none;
-    font-size: 50px;
+  border: none;
+  background: none;
+  font-size: 50px;
 }
 
-#keyword-input, #joke-search-btn {
-    border: 1px solid #dc933d;
-    background-color: #ffdead;
-    border-radius: 10px;
+#keyword-input,
+#joke-search-btn {
+  border: 1px solid #dc933d;
+  background-color: #ffdead;
+  border-radius: 10px;
 }
-
