@@ -13,7 +13,7 @@ My project is designed as a single-page application as it all runs on a single H
 I've created the frontend of my application using HTML for the structure of my content, CSS for my styling and layout, as well as JavaScript for interactivity and to fetch data from a public API (icanhazdadjoke.com).
 
 3. Event Listeners:
-I've implemented at least three distinct event listeners with different types which allow for various interactive features within my application.
+I've implemented at least three distinct event listeners with different types which allow for various interactive features within my application. (Search bar, Featured Content, Content Randomisation)
 
 4. Audio Integration:
 I've intergrated audio into my application, providing users with an on-theme auditory experience when generating random jokes.
