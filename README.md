@@ -32,8 +32,8 @@ git clone https://ansonyipannyee.github.io/phase-1-dadjokecentral/
 
 
 ## Credits
-* Dad Jokes Public API: icanhazdadjoke.com by C653 Labs.
-* Logo Design: Canva Template by Nasiyat Akmatova/ Illustration by Drante.
-* Sound Effects: soundjay.com
+* **Dad Jokes Public API**: icanhazdadjoke.com by C653 Labs.
+* **Logo Design**: Canva Template by Nasiyat Akmatova/ Illustration by Drante.
+* **Sound Effects**: soundjay.com
 
 
