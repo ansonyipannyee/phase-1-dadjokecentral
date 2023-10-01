@@ -14,3 +14,9 @@ I've created the frontend of my application using HTML for the structure of my c
 
 3. Event Listeners:
 I've implemented at least three distinct event listeners with different types which allow for various interactive features within my application.
+
+4. Audio Integration:
+I've intergrated audio into my application, providing users with an on-theme auditory experience when generating random jokes.
+
+5. Additional Features:
+I've incorporated the use of other design platforms in order to construct a logo to further improve the layout of my application.
