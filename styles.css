@@ -51,12 +51,19 @@ section {
   border: none;
   background: none;
   font-size: 50px;
+  cursor: pointer;
+}
+
+#joke-search-btn {
+  cursor: pointer;
 }
 
 #keyword-input,
 #joke-search-btn {
   border: 1px solid #dc933d;
   background-color: #ffdead;
+  padding: 1rem;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
 
