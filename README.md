@@ -1,4 +1,4 @@
-# Dad Joke Central
+## Dad Joke Central
 
 Welcome to my very first Single-Page Application demo. 
 This is my very own interpretation of AcademyXi's Phase One project which required us to build an app that must run on a single page while also demonstrating HTML, CSS, and JavaScript knowledge. 
@@ -7,7 +7,7 @@ In my project, I sought to delve into the world of dad jokes. Using the internet
 
 Project: [Dad Joke Central SPA](https://ansonyipannyee.github.io/phase-1-dadjokecentral/)
 
-# Features
+## Features
 1. Single-Page Application (SPA): 
 My project is designed as a single-page application as it all runs on a single HTML page without redirects or page reloads, providing the user a seamless interface.
 
@@ -23,7 +23,14 @@ I've intergrated audio into my application, providing users with an on-theme aud
 5. Additional Features:
 I've incorporated the use of other design platforms in order to construct a logo to further improve the layout of my application.
 
-# Credits
+## Getting Started 
+If you'd like to make a contribution or adaptation to this project, feel free to clone this repository into your local machine.
+
+```
+git clone https://ansonyipannyee.github.io/phase-1-dadjokecentral/ ```
+
+
+## Credits
 * Dad Jokes Public API: icanhazdadjoke.com by C653 Labs.
 * Logo Design: Canva Template by Nasiyat Akmatova/ Illustration by Drante.
 * Sound Effects: soundjay.com
