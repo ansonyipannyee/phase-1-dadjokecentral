@@ -58,3 +58,12 @@ section {
   background-color: #ffdead;
   border-radius: 10px;
 }
+
+footer {
+    text-align: right;
+    position: relative;
+    float: right;
+    font-size: smaller;
+    font-weight: 50;
+    font-style: italic;
+}
