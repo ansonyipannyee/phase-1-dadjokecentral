@@ -9,7 +9,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 60rem;
   font-size: 18px;
   padding-top: 20px;
 }
@@ -68,11 +68,11 @@ section {
 }
 
 footer {
-    text-align: right;
-    position: relative;
-    float: right;
-    font-size: smaller;
-    font-weight: 50;
-    font-style: italic;
-    color: #dc933d;
+  text-align: right;
+  position: relative;
+  float: right;
+  font-size: smaller;
+  font-weight: 50;
+  font-style: italic;
+  color: #dc933d;
 }
