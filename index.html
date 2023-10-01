@@ -3,29 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dad Joke Generator</title>
+        <title>Dad Joke Central</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 </html>
 <body>
-    <header>
-        <h1>Dad Joke Central</h1>
-    </header>
-    <main>
+    <div id="main-content">
         <section id="joke-search">
             <input type="text" id="keyword-input" placeholder="Enter Keyword">
             <button id="joke-search-btn">Search</button>
             <div id="joke-result"></div>
             <p id="joke-hunt-text">Suggested keywords: Hipster, Nurse, Coke...</p>
         </section>
-        <section id="featured-joke">
-            <h2>Featured Dad Joke of the Day</h2>
-            <div id="featured-joke-content"></div>
-        </section>
-        <section id="joke-generator">
-            <h2 id="joke-generator-text">Click the button for a random dad joke!</h2>
-            <button id="joke-generator-btn">😮‍💨</button>
-        </section>
-    </main>
+        <header>
+            <img src="dadjokecentral.png" alt="dad-joke-central-logo" id="logo"/>
+        </header>
+        <main>
+            <section id="featured-joke">
+                <h2>Featured Dad Joke of the Day</h2>
+                <div id="featured-joke-content"></div>
+            </section>
+            <section id="joke-generator">
+                <h2 id="joke-generator-text">Click the button for a random dad joke!</h2>
+                <button id="joke-generator-btn">😮‍💨</button>
+            </section>
+        </main>
+    </div>
+
     <script src="script.js"></script>
 </body>
