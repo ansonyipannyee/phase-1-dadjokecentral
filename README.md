@@ -5,13 +5,12 @@ This is my very own interpretation of AcademyXi's Phase One project which requir
 
 In my project, I sought to delve into the world of dad jokes. Using the internet's largest selection of dad jokes provided by icanhazdadjoke.com, my project allows for users to search for jokes using specific keywords, generate random jokes with the click of a button, and stay updated with fresh content through our 'Dad Joke of the Day' function.
 
-# Project Requirements
-1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API or from a db.json file using json-server. Your API or db.json should return a collection of at least 5 objects with each object having at least 3 attributes. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format. Try to avoid using an API that requires a key. APIs that are free and require no authorization will be easiest to use. For ideas, see this list of no-auth APIsLinks to an external site.. If you would like to use an API that requires a key, please consult with your instructor on how to protect that key. NEVER push your API key to github!
+# Features
+1. Single-Page Application (SPA): 
+My project is designed as a single-page application as it all runs on a single HTML page without redirects or page reloads, providing the user a seamless interface.
 
-2. Your entire app must run on a single page. There should be NO redirects or reloads. In other words, your project will contain a single HTML file.
+2. HTML/CSS/JS Frontend: 
+I've created the frontend of my application using HTML for the structure of my content, CSS for my styling and layout, as well as JavaScript for interactivity and to fetch data from a public API (icanhazdadjoke.com).
 
-3. Use at least 3 distinct event listenersLinks to an external site. (3 events of different types) that enable interactivity. What this means is that, if you had 3 click events, that would only count as 1 distinct event and you would need to add at least 2 more. Think search or filter functionality, toggling dark/light mode, upvoting posts, etc. Each of your event listeners should also have its own unique callback function. These must be added using JavaScript's .addEventListener() method. Events embedded into HTML elements and CSS will not count toward the total. Please ask your instructor if you have questions regarding this requirement.
-
-4. Your project must implement at least one instance of array iteration using available array methods (map, forEach, filter, etc). Manipulating your API data in some way should present an opportunity to implement your array iteration.
-
-5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code.
+3. Event Listeners:
+I've implemented at least three distinct event listeners with different types which allow for various interactive features within my application.
