@@ -5,6 +5,8 @@ This is my very own interpretation of AcademyXi's Phase One project which requir
 
 In my project, I sought to delve into the world of dad jokes. Using the internet's largest selection of dad jokes provided by icanhazdadjoke.com, my project allows for users to search for jokes using specific keywords, generate random jokes with the click of a button, and stay updated with fresh content through our 'Dad Joke of the Day' function.
 
+Project: [Dad Joke Central SPA](https://ansonyipannyee.github.io/phase-1-dadjokecentral/)
+
 # Features
 1. Single-Page Application (SPA): 
 My project is designed as a single-page application as it all runs on a single HTML page without redirects or page reloads, providing the user a seamless interface.
