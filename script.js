@@ -45,6 +45,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const jokeGeneratorBtn = document.getElementById('joke-generator-btn');
     const jokeGeneratorText = document.getElementById('joke-generator-text');
-    const jokeAudio = document.getElementById('joke-audio');
 
-})
+    jokeGeneratorBtn.addEventListener('click', () => {
+        const jokeAudio = new Audio ("https://www.soundjay.com/human/sounds/fart-03.mp3");
+        jokeAudio.play();
+
+        fetch(`https://icanhazdadjoke.com/`, {
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            jokeGeneratorText.textContent = data.joke;
+        })
+        .catch(error => {
+            console.error('Error fetching joke:', error);
+            jokeGeneratorText.textContent = 'Oops! Something went wrong. Please try again.';
+        });
+    });
+});
