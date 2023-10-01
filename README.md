@@ -20,3 +20,10 @@ I've intergrated audio into my application, providing users with an on-theme aud
 
 5. Additional Features:
 I've incorporated the use of other design platforms in order to construct a logo to further improve the layout of my application.
+
+# Credits
+Dad Jokes Public API: icanhazdadjoke.com by C653 Labs.
+Logo Design: Canva Template by Nasiyat Akmatova/ Illustration by Drante.
+Sound Effects: soundjay.com
+
+
