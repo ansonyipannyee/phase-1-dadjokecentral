@@ -14,7 +14,8 @@ html {
   padding-top: 20px;
 }
 
-section {
+section,
+#joke-search-form {
   background-color: #f6ee8a;
   border: 10px dotted #dc933d;
   border-radius: 30px;
