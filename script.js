@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const jokeSearchBtn = document.getElementById("joke-search-btn");
   const jokeResult = document.getElementById("joke-result");
 
-  jokeSearchBtn.addEventListener("click", () => {
+  jokeSearchBtn.addEventListener("submit", (event) => {
+    event.preventDefault();
+
     const keyword = keywordInput.value;
     if (keyword.trim() === "") {
       return;
@@ -14,18 +16,19 @@ document.addEventListener("DOMContentLoaded", () => {
         Accept: "application/json",
       },
     })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.results && data.results.length > 0) {
-          const randomJoke =
-            data.results[Math.floor(Math.random() * data.results.length)];
-          jokeResult.textContent = randomJoke.joke;
-        } else {
-          jokeResult.textContent = "No jokes found with that keyword.";
-        }
-      })
-      .catch((error) => console.error("Error fetching joke:", error));
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.results && data.results.length > 0) {
+        const randomJoke =
+          data.results[Math.floor(Math.random() * data.results.length)];
+        jokeResult.textContent = randomJoke.joke;
+      } else {
+        jokeResult.textContent = "No jokes were found with that keyword.";
+      }
+    })
+    .catch((error) => console.error("Error fetching joke:", error));
   });
+  
 
   const featuredJokeContent = document.getElementById("featured-joke-content");
 
