@@ -32,7 +32,7 @@ section {
   margin-bottom: 20px;
 }
 
-#joke-search,
+#joke-search-form,
 #featured-joke,
 #joke-generator {
   flex: 1;
