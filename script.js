@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const keywordInput = document.getElementById("keyword-input");
-  const jokeSearchBtn = document.getElementById("joke-search-btn");
+  const jokeSearchForm = document.getElementById("joke-search-form");
   const jokeResult = document.getElementById("joke-result");
 
-  jokeSearchBtn.addEventListener("submit", (event) => {
+  jokeSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const keyword = keywordInput.value;
