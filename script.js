@@ -29,6 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => console.error("Error fetching joke:", error));
   });
   
+keywordInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    fetchNewRandomJoke();
+  }
+});
 
   const featuredJokeContent = document.getElementById("featured-joke-content");
 
