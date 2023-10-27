@@ -54,6 +54,21 @@ keywordInput.addEventListener("keydown", (event) => {
 
   fetchFeaturedJoke();
 
+  function fetchNewRandomJoke() {
+    fetch(`https://icanhazdadjoke.com/`, {
+      headers: {
+        Accept: "application/json",
+      },
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      featuredJokeContent.textContent = data,joke;
+    })
+    .catch((error) => 
+      console.error("Error fetching joke of the day:", error)
+    );
+  }
+
   const jokeGeneratorBtn = document.getElementById("joke-generator-btn");
   const jokeGeneratorText = document.getElementById("joke-generator-text");
 
