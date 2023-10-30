@@ -14,6 +14,11 @@ html {
   padding-top: 20px;
 }
 
+#welcome-message {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 section,
 #joke-search-form {
   background-color: #f6ee8a;
@@ -60,10 +65,11 @@ section,
 }
 
 #keyword-input,
-#joke-search-btn {
+#joke-search-btn,
+#name {
   border: 1px solid #dc933d;
   background-color: #ffdead;
-  padding: 1rem;
+  padding: 0.7rem;
   margin-bottom: 10px;
   border-radius: 10px;
 }
