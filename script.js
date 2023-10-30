@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => console.error("Error fetching joke:", error));
   });
   
-keywordInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    fetchNewRandomJoke();
-  }
-});
+  keywordInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      fetchNewRandomJoke();
+    }
+  });
 
   const featuredJokeContent = document.getElementById("featured-joke-content");
 
@@ -62,7 +62,7 @@ keywordInput.addEventListener("keydown", (event) => {
     })
     .then((response) => response.json())
     .then((data) => {
-      featuredJokeContent.textContent = data,joke;
+      jokeResult.textContent = data.joke;
     })
     .catch((error) => 
       console.error("Error fetching joke of the day:", error)
