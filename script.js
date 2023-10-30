@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   nameInput.addEventListener("input", () => {
     const userName = nameInput.value;
     if (userName.trim() !== "") {
-      namePreview.textContent = `Hi ${userName}! I'm not dad, I'm your computer! Welcome to Dad Joke Central!`
+      namePreview.textContent = `Hi ${userName}! I'm not dad, I'm your computer!`
     } else {
       namePreview.textContent = " "
     }
