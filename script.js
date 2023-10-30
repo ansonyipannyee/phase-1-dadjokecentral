@@ -1,4 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const nameInput = document.getElementById("name");
+  const namePreview = document.getElementById("name-preview");
+
+  nameInput.addEventListener("input", () => {
+    const userName = nameInput.value;
+    if (userName.trim() !== "") {
+      namePreview.textContent = `Hi ${userName}! I'm not dad, I'm your computer!`
+    } else {
+      namePreview.textContent = " "
+    }
+  });
+
   const keywordInput = document.getElementById("keyword-input");
   const jokeSearchForm = document.getElementById("joke-search-form");
   const jokeResult = document.getElementById("joke-result");
